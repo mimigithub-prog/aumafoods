@@ -1,0 +1,628 @@
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url('ForeverFonts/PlayfairDisplay-Black.eot'); /* IE9 Compat Modes */
+  src: url('ForeverFonts/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ForeverFonts/PlayfairDisplay-Black.woff2') format('woff2'), /* Super Modern Browsers */
+      url('ForeverFonts/PlayfairDisplay-Black.otf') ,
+       url('ForeverFonts/PlayfairDisplay-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('ForeverFonts/PlayfairDisplay-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ForeverFonts/PlayfairDisplay-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+  font-family: "Cinzel Decorative Black";
+  src: url('ForeverFonts/Cinzel Decorative Black.eot'); /* IE9 Compat Modes */
+  src: url('ForeverFonts/Cinzel Decorative Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ForeverFonts/Cinzel Decorative Black.woff2') format('woff2'), /* Super Modern Browsers */
+      url('ForeverFonts/Cinzel Decorative Black.otf') ,
+       url('ForeverFonts/Cinzel Decorative Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('ForeverFonts/Cinzel Decorative Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ForeverFonts/Cinzel Decorative Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+@font-face {
+  font-family: "Zorus_Serif";
+  src: url('ForeverFonts/Zorus_Serif.eot'); /* IE9 Compat Modes */
+  src: url('ForeverFonts/Zorus_Serif.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ForeverFonts/Zorus Serif.woff2') format('woff2'), /* Super Modern Browsers */
+      url('ForeverFonts/Zorus_Serif.otf') ,
+       url('ForeverFonts/Zorus_Serif.woff') format('woff'), /* Pretty Modern Browsers */
+       url('ForeverFonts/Zorus_Serif.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ForeverFonts/Zorus_Serif.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.cover{
+ background:url('image/auma_bg2.jpg')top left no-repeat;
+ background-size: cover;
+    display: table;
+    width: 100%;
+     background-color:#121214 ;
+    background-blend-mode:soft-light;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.cover-text{
+    text-align: center;
+    color: white;
+  
+    vertical-align: middle;
+  
+}
+.cover-text p{
+    color: #aaacb0;
+    font-family: "Cinzel Decorative Black";
+    letter-spacing: 3px;
+}
+
+.cover-text h4{
+font-family: "Cinzel Decorative Black"; 
+font-size: 30px;
+color: wheat;
+    
+    
+}
+
+
+.cover-text h5{
+    font-size: 25px;
+     font-family: "PlayfairDisplay-Regular";
+    color: wheat;
+}
+.cover-text h4 strong{
+    color: #f0a009;
+    font-size: 40px;
+    
+}
+.cover-text h1{
+    
+    font-size: 40px;
+   color: wheat;
+    font-family: "PlayfairDisplay-Regular";
+    
+   
+}
+.cover-text h1 strong{
+    color: #f0a009;
+    
+}
+
+.cover-text em{
+    color: #f0a009;
+     font-family: "Cinzel Decorative Black";
+}
+.cover-text h3{
+    color: wheat;
+    letter-spacing: 3px;
+     
+}
+
+.cover-text span{
+  font-family: "PlayfairDisplay-Regular";
+    font-size: 18px;
+    color: wheat;
+}
+
+.cover-text a{
+    
+   color: white;
+    border: solid 2px wheat;
+    font-family: "PlayfairDisplay-Regular";
+     letter-spacing: 3px;
+     background: #cc0f10;
+    
+    
+   
+}
+.cover-text b{
+    text-transform: uppercase;
+    color: #f0a009;
+}
+
+.cover-text a:hover{
+   
+   color: white;
+    border: solid 2px white;
+    font-family: "PlayfairDisplay-Regular";
+   
+    
+    text-decoration: none;
+     
+}
+
+.cover-text #btn_1{
+   
+   color: white;
+    border: solid 2px wheat;
+    font-family: "PlayfairDisplay-Regular";
+     letter-spacing: 3px;
+     background: #189d0e;
+    
+}
+
+
+.cover-text #btn_1:hover{
+   
+   color: white;
+    border: solid 2px white;
+    font-family: "PlayfairDisplay-Regular";
+    text-decoration: none;
+     
+}
+
+
+
+#training{
+    background: #01221f;
+    
+    
+   
+}
+#training1 h1{
+    color: wheat;
+    text-transform: uppercase;
+   font-family: "PlayfairDisplay-Regular";
+    font-size: 70px;
+   border-bottom:solid 2px #f0a009;
+   
+    
+}
+#training1 h2{
+    font-size: 30px;
+    color: wheat;
+    font-family: "PlayfairDisplay-Regular";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#training1 h2 strong{
+    color:#cc0f10;
+     font-family: "Cinzel Decorative Black";    
+}
+
+
+#training1 strong{
+    color: #f0a009;
+    font-family: "Cinzel Decorative Black";
+}
+#training1 p{
+    color: wheat;
+    font-size: 18px;
+    font-family: "Cinzel Decorative Black";
+    
+}
+#training2 h1{
+    color: #f0a009;
+    font-size: 30px;
+   font-family: "Zorus_Serif";
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+#training p{
+   color: wheat;
+    font-size: 15px;
+    font-family: "PlayfairDisplay-Regular";
+    letter-spacing: 3px;
+  
+}
+#training2 strong{
+   color: white;
+    font-size: 18px;
+    font-family: "PlayfairDisplay-Regular";
+    font-style: italic;
+  
+}
+#training li{
+   color: wheat;
+    font-size: 20px;
+     font-family: "Zorus_Serif";
+    list-style: none;
+    letter-spacing: 1px;
+  
+}
+#training  li::before {content: "•"; color: #f0a009;
+ display: inline-block; 
+    width: 1em;
+  margin-left: -2em;
+}
+
+
+#training2 a{
+    width: 200px;
+   color: white;
+    border: solid 2px white;
+    font-family: "Cinzel Decorative Black";
+    width: 150px;
+     letter-spacing: 3px;
+     background: #e17339;
+    
+    
+   
+}
+.border{
+     width: 40px;
+    height: 3px;
+    background-color: #f0a009;
+   
+}
+cite{
+  color: wheat;  
+}
+#training2 a:hover{
+    width: 200px;
+   color: black;
+    border: solid 2px white;
+   font-family: "Cinzel Decorative Black";
+    width: 150px;
+    
+    text-decoration: none;
+     
+}
+
+
+
+#About h3{
+    color: #f0a009;
+   font-family: "Cinzel Decorative Black";
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+#About .logo_2{
+    color: #f0a009;
+    font-family: "Cinzel Decorative Black";
+    letter-spacing: 2px;
+    font-size: 17px;
+   
+}
+#About li a{
+    color: #d0c6c6;
+      font-family: "Zorus_Serif";
+      list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+        
+}
+
+#About li::before {content: "•"; color: #f0a009;
+ display: inline-block; 
+    width: 1em;
+  margin-left: -2em;
+}
+
+
+#About li a:hover{
+    color: #f0a009;
+    text-decoration: none;
+    font-family: "Zorus_Serif";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#About p{
+    color: #d0c6c6;
+     font-family: "Zorus_Serif";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#About a{
+    color: #d0c6c6;
+   font-family: "Zorus_Serif";
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+ letter-spacing: 2px;
+}
+ footer {
+      color: #d0c6c6;
+       font-family: "Zorus_Serif";
+     font-weight: bold;
+      font-size: 14px;
+}
+footer strong{
+    color: wheat;
+    font-family: "Cinzel Decorative Black";
+    font-size: 18px;
+}
+footer p{
+ color: #f0a009;
+ letter-spacing: 2px;   
+}
+footer em{
+    color: #d0c6c6; 
+    letter-spacing: 3px;
+}
+
+footer span{
+    letter-spacing: 2px;
+   
+}
+
+footer small{
+   color: #f0a009;   
+}
+
+.home-newsletter {
+padding: 80px 0;
+background: #f84e77;
+    
+}
+
+ .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2;
+}
+ .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+ .single .form-control {
+height: 50px;
+width: 100%;    
+background: white;
+border-color: transparent;
+border-radius: 20px 0 0 20px;
+margin-top: 50px;}
+ .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+ .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
+margin-top: 50px;
+     font-family: "Cinzel Decorative Black";
+}              
+
+
+/* Container used for styling the custom select, the buttom class adds the bg gradient, corners, etc. */
+.dropdown {
+  position: relative;
+  display:block;
+  
+  padding:0;
+}
+
+/* This is the native select, we're making everything the text invisible so we can see the button styles in the wrapper */
+.dropdown select {
+   font-family: "PlayfairDisplay-Regular"; 
+ font-size: 20px;
+  height: 50px;
+    width: 350px;
+    border: solid 2px #f0a009; 
+    letter-spacing: 1PX;
+    background: #cc0f10;
+	outline: 2px solid #f0a009;
+	text-align: center;	
+    -webkit-animation: test 4s infinite; /* Chrome, Safari, Opera */
+    animation: test 3s infinite;
+    color: wheat;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes test {
+    50% {outline: 12px solid #f0a009;}
+}
+/* Standard syntax */
+@keyframes test {
+    50% {outline: 12px solid #f0a009;}
+}
+
+
+
+/* Custom arrow sits on top of the select - could be an image, SVG, icon font, etc. or the arrow could just baked into the bg image on the select */
+
+.dropdown::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 8px;
+  top: 50%;
+  right: 1em;
+  margin-top:-4px;
+  z-index: 2;
+ 
+  /* These hacks make the select behind the arrow clickable in some browsers */
+  pointer-events:none;
+}
+
+
+select option{
+   font-family: "PlayfairDisplay-Regular";
+  
+}
+
+
+/* This hides native dropdown button arrow in IE 10/11+ so it will have the custom appearance, IE 9 and earlier get a native select */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .dropdown select::-ms-expand {
+    display: none;
+  }
+  /* Removes the odd blue bg color behind the text in IE 10/11 and sets the text to match the focus style text */
+  select:focus::-ms-value {
+    background: transparent;
+    color: #222;
+  }
+}
+
+/* Firefox >= 2 -- Older versions of FF (v2 - 6) won't let us hide the native select arrow, so we'll just hide the custom icon and go with native styling */
+/* Show only the native arrow */
+body:last-child .dropdown::after, x:-moz-any-link {
+  display: none;
+}
+/* reduce padding */
+body:last-child .dropdown select, x:-moz-any-link {
+  padding-right: .8em;
+}
+
+/* Firefox 7+ -- Will let us hide the arrow, but inconsistently (see FF 30 comment below). We've found the simplest way to hide the native styling in FF is to make the select bigger than its container. */
+/* The specific FF selector used below successfully overrides the previous rule that turns off the custom icon; other FF hacky selectors we tried, like `*>.dropdown::after`, did not undo the previous rule */
+
+/* Set overflow:hidden on the wrapper to clip the native select's arrow, this clips hte outline too so focus styles are less than ideal in FF */
+_::-moz-progress-bar, body:last-child .dropdown {
+  overflow: hidden;
+}
+/* Show only the custom icon */
+_::-moz-progress-bar, body:last-child .dropdown:after {
+  display: block;
+}
+_::-moz-progress-bar, body:last-child .dropdown select {
+  /* increase padding to make room for menu icon */
+  padding-right: 1.9em;
+  /* `window` appearance with these text-indent and text-overflow values will hide the arrow FF up to v30 */
+  -moz-appearance: window;
+  text-indent: 0.01px;
+  text-overflow: "";
+  /* for FF 30+ on Windows 8, we need to make the select a bit longer to hide the native arrow */
+  width: 110%;
+}
+
+/* At first we tried the following rule to hide the native select arrow in Firefox 30+ in Windows 8, but we'd rather simplify the CSS and widen the select for all versions of FF since this is a recurring issue in that browser */
+/* @supports (-moz-appearance:meterbar) and (background-blend-mode:difference,normal) {
+.dropdown select { width:110%; }
+}   */
+
+
+/* Firefox 7+ focus style - This works around the issue that -moz-appearance: window kills the normal select focus. Using semi-opaque because outline doesn't handle rounded corners */
+_::-moz-progress-bar, body:last-child .dropdown select:focus {
+  outline: 2px solid rgba(180,222,250, .7);
+}
+
+
+/* Opera - Pre-Blink nix the custom arrow, go with a native select button */
+x:-o-prefocus, .dropdown::after {
+  display:none;
+}
+
+
+/* Focus style */
+select:focus {
+  outline:none;
+  box-shadow: 0 0 1px 3px rgba(180,222,250, 1);
+  background-color:#aaa;
+  color: black;
+  border:1px solid #aaa;
+}
+
+
+/* Firefox focus has odd artifacts around the text, this kills that */
+select:-moz-focusring {
+  color: black;
+  text-shadow: 0 0 0 #000;
+}
+
+option {
+  font-weight:normal;
+}
+
+
+/* These are just demo button-y styles, style as you like */
+
+.output {
+  margin: 0 auto;
+  padding: 1em; 
+}
+.colors {
+  padding: 2em;
+  color: #fff;
+  display: none;
+}
+
+footer {
+  margin: 5em auto 3em;
+  padding: 2em 2.5%;
+  text-align: center;
+}
+a {
+  color: #c04;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #903;
+  text-decoration: underline;
+}
+    
+ .panel-heading{
+    background: #3f5e04;
+    color: white;
+    font-family: "Cinzel Decorative Black";
+    letter-spacing: 4px;
+    font-weight: bold;
+    
+}
+
+.panel-body{
+    
+}
+.panel-body label{
+ font-family: "PlayfairDisplay-Regular";
+    font-weight: bold;
+    color: wheat;
+    font-size: 18px;
+   text-align: center;
+}
+.panel-body select{
+
+     background: #444;
+   color: white;
+}
+
+
+.panel-body input{
+ font-family: "PlayfairDisplay-Regular";
+    background: #444;
+    color: white;
+     width: 50%;
+}
+.output_cover{
+    border: solid 2px wheat;
+    
+}
+
+ button[type=submit]{
+   
+   color: black;
+    border: solid 2px white;
+    font-family: "Cinzel Decorative Black";
+ 
+     letter-spacing: 3px;
+     background: #f0a009;
+    
+}
+
+ input[type=submit]:hover{
+   
+   color: white;
+    border: solid 2px white;
+   font-family: "Cinzel Decorative Black";
+   
+    text-decoration: none;
+}
+
+
+label i{
+    color: #f0a009;
+}
+
